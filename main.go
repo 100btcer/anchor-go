@@ -17,7 +17,7 @@ import (
     . "github.com/gagliardetto/utilz"
     "golang.org/x/mod/modfile"
 
-    "anchor-go/sighash"
+    "github.com/100btcer/anchor-go/sighash"
 )
 
 const generatedDir = "generated"
