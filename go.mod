@@ -1,4 +1,4 @@
-module anchor-go
+module github.com/100btcer/anchor-go
 
 go 1.16
 
