@@ -1,15 +1,15 @@
 package main
 
 import (
-	"os"
-	"path"
-	"strings"
+    "os"
+    "path"
+    "strings"
 
-	. "github.com/dave/jennifer/jen"
-	"github.com/gagliardetto/solana-go"
-	. "github.com/gagliardetto/utilz"
+    . "github.com/dave/jennifer/jen"
+    "github.com/gagliardetto/solana-go"
+    . "github.com/gagliardetto/utilz"
 
-	"anchor-go/sighash"
+    "github.com/100btcer/anchor-go/sighash"
 )
 
 func ToPackageName(s string) string {
